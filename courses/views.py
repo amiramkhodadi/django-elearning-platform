@@ -58,7 +58,7 @@ class CourseDeleteView(OwnerCourseMixin, DeleteView):
 
 
 # TemplateResponseMixin is responsible for rendering the specified template with the given context and returning an HTML response.
-class CourseModuleUpdatweView(TemplateResponseMixin, View):
+class CourseModuleUpdateView(TemplateResponseMixin, View):
     template_name = "courses/manage/module/formset.html"
     course = None
 
